@@ -1,0 +1,92 @@
+@font-face{
+	font-family: LetraMine;
+	src : url('../fonts/Minecraftia-Regular.eot') , url('../fonts/Minecraftia-Regular.ttf');
+	font-style:normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: TituloLetraMine;
+	src : url('../fonts/minecraft_evenings.eot') , url('../fonts/minecraft_evenings.ttf');
+	font-style:normal;
+	font-weight: normal;
+}
+
+.body{
+	background: url("../images/bg_clouds.png") no-repeat center 1px,url("../images/bg_ground_tile2.png") repeat-x center 28px,url("../images/fondo.png") repeat top;
+	padding-top: 70px;
+}
+
+.menu-header{
+	/*background-image: url('../images/bg_clouds2.png');*/
+}
+
+.header-opciones{
+	margin-top: 5%;
+	margin-bottom: 1%;
+	margin-right: 2%;
+}
+
+.fuente-mine{
+	font-family: LetraMine;
+	color: white;
+}
+
+.titulos{
+	font-family: TituloLetraMine;
+	color : white;
+}
+
+.op a{
+	background: url('../images/boton12.png') no-repeat;
+	color: white;
+}
+
+.op .activo , .op a:hover{
+	background: url('../images/boton21.png') no-repeat;
+}
+.links{
+	color: white;
+}
+.banner{
+	
+}
+.banner img{
+	display: block;
+	margin: auto;
+	width: 720px;
+
+}
+
+.footer{
+	background: url('../images/footer.png');
+	padding: 1%;
+	text-align: center;
+}
+
+#tabla-top_length , #tabla-top_info{
+	font-family: LetraMine;
+	color: white;
+}
+
+#tabla-top_next , #tabla-top_previous{
+	font-family: LetraMine;
+	color: black;
+}
+
+.formulario{
+	margin-top: 10%;
+
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #111;
+}
+
+.raza{
+	width: 100px;
+}
+
+.error{
+	background-color: red;
+}
