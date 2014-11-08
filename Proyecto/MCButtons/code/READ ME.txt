@@ -1,0 +1,14 @@
+In order to use this code you must set up your button.
+On the code.txt file you will find the base for your button and you will see some values that you must change.
+----------------
+1)name="serverButton", change the name of your button to whatever you want
+
+2) class="yourclasshere", this needs to be changed if you modified the class name on the CSS style sheet
+
+3)id="serverButton", change this to whatever you want
+
+4)value="Our Server", this is the text that will be displayed in your button, so change it if you want
+----------------
+Thank you, a lot, for downloading this code :)
+MCButtons a work by ltMoa
+http://www.minecraftforum.net/user/2009374-ltmoa/

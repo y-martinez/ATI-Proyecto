@@ -1,0 +1,1 @@
+<input name="serverButton" type="button" class="yourclasshere" id="serverButton" value="Our Server" />
