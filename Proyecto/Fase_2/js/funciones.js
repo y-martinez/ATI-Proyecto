@@ -34,8 +34,3 @@ function generar(numero){
 window.onload=function(){
 	generar(100);
 }
-
-function volver(){
-	// redirigir  la pagina menu.html
-	document.location.href="../index.html";
-}

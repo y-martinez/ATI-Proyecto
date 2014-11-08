@@ -30,30 +30,26 @@
                 <div class="form-group">
                   <label for="user" class="col-sm-2 control-label">Usuario</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="user" style="font:message-box" placeholder="Nombre de Usuario" required>
+                    <input type="text" class="form-control" id="user" placeholder="Username" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="pass" class="col-sm-2 control-label">Contraseña</label>
                   <div class="col-sm-4">
-                    <input type="password" class="form-control" id="pass" style="font:message-box" data-icon="x" placeholder="Contraseña" required>
+                    <input type="password" class="form-control" id="pass" placeholder="Contraseña" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-primary" style="font:icon;">Entrar</button>
-                     
-                    <a href="#recordar_con" role="button" class="btn btn-default" data-toggle="modal" style="font:icon;margin-left:5%;">Recordar Contraseña</a>
-                 
-                </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                  </div>
                 </div>
 
                 <div class="form-group">
                   <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-primary" onclick="volver();" style="font:icon;">Salir</button>
+                    <a href="#recordar_con" role="button" class="btn btn-default" data-toggle="modal">Recordar Contraseña</a>
                   </div>
                 </div>
-                 </form>
               <div id="recordar_con" class=" modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
@@ -68,15 +64,13 @@
                             <td>
                               <form id = "form-recuperar" class="form-horizontal" role="form" action="#" method="POST">
                                 <div class="form-group">
-                                  <label for="correo" class="control-label" >Correo</label>
-                                  <input type="email" class="form-control" id="correo-con" data-icon="e" title="Email" placeholder="Correo" required>
+                                  <label for="correo" class="control-label">Correo</label>
+                                  <input type="email" class="form-control" id="correo-con" placeholder="Correo" required>
                                 </div>
                                 <div class="form-group">
                                   <label for="respuesta" class="control-label">Respuesta Secreta</label>
-                                  <input type="text" class="form-control" id="respuesta-con "  title="Ingrese respuesta secreta" placeholder="Respuesta" required>
-
+                                  <input type="text" class="form-control" id="respuesta-con " placeholder="Respuesta" required>
                                 </div>
-                                <button id="btn-enviar-con" type="submit" class="btn btn-primary" >Enviar</button>
                               </form>
                            </td>
                             <td><img src="../images/forgot_pass.png"></td>
@@ -85,16 +79,17 @@
                       </table>
                     </div>
                     <div class="modal-footer">
-                      
-
+                      <button id="btn-enviar-con" type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
                       <button  type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                     </div>
                   </div>
                 </div>
               </div>
-             
+              </form>
             </div>
-          
+            <div class="col-lg-4 col-md-4">
+
+            </div>
           </div>
         </div>
       </div>
