@@ -26,7 +26,8 @@ function generar(numero){
 					"next" : "Siguiente",
 					"previous" : "Anterior"
 				}
-		}
+		},
+		"order":[[1,"desc"]]
 
 	});
 }
