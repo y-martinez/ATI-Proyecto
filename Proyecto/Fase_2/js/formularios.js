@@ -105,7 +105,10 @@ $(document).ready(function(){
 				    $("#formulario_registro").submit();
 				});
 			}
-		}	
+		}else{
+			console.log("Registro completo\n");
+			document.location.href="../index.html";	
+		}
 	});
 
 	recuperar=$("#btn-enviar-con");

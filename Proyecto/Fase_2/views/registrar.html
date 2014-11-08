@@ -30,30 +30,30 @@
 
                 <div class="form-group has-feedback" id="us">
                   <label for="user" class="control-label">Username</label>
-                  <input type="text" class="form-control" id="user" placeholder="Username"required>
+                  <input type="text" style="font:message-box" class="form-control" id="user" placeholder="Username"required>
                   
                 </div>
 
                 <div class="form-group has-feedback">
                   <label for="fecha" class="control-label">Fecha de Nacimiento</label>
-                  <input type="date" class="form-control" id="fecha" placeholder="Fecha de Nacimiento" required>
+                  <input type="date" style="font:message-box" class="form-control" id="fecha" placeholder="Fecha de Nacimiento" required>
                 </div>
 
                 <div class="form-group has-feedback" id="correo">
                   <label for="email" class="control-label">Correo</label>
-                  <input type="email" class="form-control" id="email1" placeholder="Correo" required> <br>
-                  <input type="email" class="form-control" id="email2" placeholder="Vuelva escribir el correo" required>
+                  <input type="email" style="font:message-box" class="form-control" id="email1" placeholder="Correo" required> <br>
+                  <input type="email" style="font:message-box" class="form-control" id="email2" placeholder="Vuelva escribir el correo" required>
                 </div>
 
                 <div class="form-group has-feedback" id="contra">
                   <label class="control-label">Contraseña</label>
-                  <input type="password" class="form-control" id="pass1" placeholder="Contraseña" required> <br>
-                  <input type="password" class="form-control" id="pass2" placeholder="Vuelva escribir la contraseña" required>
+                  <input type="password" style="font:message-box" class="form-control" id="pass1" placeholder="Contraseña" required> <br>
+                  <input type="password"  style="font:message-box"class="form-control" id="pass2" placeholder="Vuelva escribir la contraseña" required>
                 </div>
 
                 <div class="form-group has-feedback">
                   <label class="control-label">Raza</label>
-                  <select id="raza-option" class="form-control">
+                  <select style="font:message-box" id="raza-option" class="form-control">
                     <option>Enano</option>
                     <option>Elfo</option>
                     <option>Mago</option>
@@ -62,18 +62,18 @@
                 </div>
                 <div class="form-group has-feedback" >
                   <label class="control-label">Pregunta Secreta</label>
-                  <select class="form-control">
-                    <option>¿Lorem ipsum dolor sit amet?</option>
-                    <option>¿Lorem ipsum dolor sit amet?</option>
-                    <option>¿Lorem ipsum dolor sit amet?</option>
-                    <option>¿Lorem ipsum dolor sit amet?</option>
+                  <select style="font:message-box" class="form-control">
+                    <option>¿Nombre de tu primera mascota?</option>
+                    <option>¿Nombre de tu profesor preferido?</option>
+                    <option>¿Lugar de nacimiento de la madre?</option>
+                    <option>¿Comida favorita?</option>
                   </select>
                   <br>
-                  <input type="text" class="form-control" required>
+                  <input style="font:message-box" type="text" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <!--<input type="button" value="Confirmar" id="btn-registrar" data-toggle="modal" data-target="#confirmar" class="btn btn-primary" />-->
-                  <button type="submit" class="btn btn-primary btn-lg" id="btn-registrar">Registrar</button>
+                  <button type="submit" style="font:icon" class="btn btn-primary btn-lg" id="btn-registrar">Registrar</button>
+                  <button type="submit" class="btn btn-default btn-lg" onclick="volver();" style="font:icon;">Salir</button>
                 </div>
               </form>
               <div class="modales modal fade" id="confirmar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -86,7 +86,7 @@
                       <h3 id="bien-regi"></h3>
                     </div>
                     <div class="modal-footer">
-                      <button id="btn-confirmar" type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
+                      <button id="btn-confirmar" style="font:icon" type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
                     </div>
                   </div>
                 </div>
